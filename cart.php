@@ -81,7 +81,6 @@ if (isset($_POST['delete_all'])) {
     <section class="products">
         <h1 class="title">giỏ hàng của bạn</h1>
 
-
         <div class="box-container">
             <?php 
                 $grand_total = 0;

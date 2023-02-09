@@ -27,7 +27,7 @@ class Mailer {
             //Recipients
             $mail->setFrom('qtrung792@gmail.com', 'yum yum 😋');
             $mail->addAddress('ngodochanh@gmail.com', $name); 
-            // $mail->addAddress($gmail_customer, $name);     // Add a recipient
+            $mail->addAddress($gmail_customer, $name);     // Add a recipient
             // $mail->addAddress('ellen@example.com');               // Name is optional
             // $mail->addReplyTo('info@example.com', 'Information');
             $mail->addCC('qtrung792@gmail.com');

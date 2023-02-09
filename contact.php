@@ -88,7 +88,7 @@ if (isset($_POST['send'])) {
                 <input type="email" name="email" maxlength="50" class="box" placeholder="Nhập gmail"
                     value="<?= $user_id == '' ? '' : $fetch_profile['gmailkh'] ?>" required>
 
-                <textarea name="msg" class="box" placeholder="Nhập tin nhắn" required maxlength="50" cols="30"
+                <textarea name="msg" class="box" placeholder="Nhập tin nhắn" required maxlength="100" cols="30"
                     rows="10"></textarea>
                 <input type="submit" value="Gửi đi" name="send" class="btn">
 

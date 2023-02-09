@@ -129,7 +129,7 @@ include_once ('components/add_cart.php');
         <?php
                 }
             }
-            if ($current_page < $total_pages - 1) {
+            if ($current_page < $total_pages) {
                 $next_page = $current_page + 1;
             ?>
                 <a class="" href="?per_page=<?= $item_per_page ?>&page=<?= $next_page ?>"><i class="fa-solid fa-chevron-right"></i></a>

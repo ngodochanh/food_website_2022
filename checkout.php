@@ -46,7 +46,7 @@ if (isset($_POST['submit'])) {
 
             $last_id = $conn->lastInsertId();
 
-            $messages[] = 'đặt hàng thanh công 🤑';
+            $messages[] = 'đặt hàng thành công 🤑';
 
             require_once ('mail/send_mail.php');
             require_once ('mail/desgin_header_mail.php');
